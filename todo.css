@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to left, rgb(30, 68, 80), rgb(241, 83, 107),rgba(102, 11, 102, 0.781));
+}
+.container{
+     width: 40%;
+     min-height: 30vh;
+     background-color: white;
+     margin: 10rem 30rem;
+     padding: 1rem 25px;
+     position: relative;
+     border-radius: 5px;
+}
+.input1{
+     width: 100%;
+     margin-top: 10px;
+     display: grid;
+     grid-template-columns: 80% 1fr ;
+    text-align: center;
+}
+
+#inputtd{
+    border:2px solid rgba(128, 128, 128, 0.719);
+    padding: 15px;
+}
+.testicon{
+    font-size: 32px;
+    border-left: none;
+    border: 2px solid rgba(83, 66, 66, 0.979);
+    width: 100%;
+}
+.list{
+    width: 100%;
+    margin-top:1rem;
+    margin-bottom: 4rem;
+}
+.list >li{
+    width: auto;
+    display:grid;
+    background-color:whitesmoke;
+    grid-template-columns: 50% 30% 1fr 1fr;
+    margin-top: 1rem;
+    border:1px solid rgba(31, 36, 35, 0.849);
+    border-radius: 5px;
+    box-shadow: grey 0px 2px 8px 0px;
+}
+h2{
+   font-weight: 300;
+   padding: 5px;
+   color: red;
+}
+.bottom{
+    position: absolute;
+    bottom: 0.4rem;
+ 
+    margin-left: 6rem;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 20%;
+}
+button{
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: rgb(60, 67, 87);
+    border-radius: 5px;
+}
+button:hover{
+    color:black;
+  background-color: aliceblue;
+
+}
+h1{
+    text-align: center;
+}
+i{
+ padding: 10px;
+}
+p{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    word-wrap: break-word;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+}
